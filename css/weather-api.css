@@ -4,7 +4,8 @@ html   {
 body {
     background: #fff;
 	font-family: 'Quicksand', sans-serif;
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 }
 
 * {
@@ -106,7 +107,8 @@ hr {
 
         @media screen and (max-width: 970px) {
             #contact {
-                height: 100vh;
+                min-height: 100vh;
+                height: auto;
             }
         }
 
