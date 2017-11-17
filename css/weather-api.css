@@ -1,0 +1,155 @@
+html   {
+    overflow-x:hidden;
+}
+body {
+    background: #fff;
+	font-family: 'Quicksand', sans-serif;
+	height: 100vh;
+}
+
+* {
+   /* max-width: 100vw!import;
+}*/
+}
+
+
+h1 {
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: 10px;
+}
+
+h3.des-col-title {
+    padding-bottom: 20px;
+    height: 100px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.des-col-title a:link,
+.des-col-title a:visited,
+.des-col-title a:hover,
+.des-col-title a:active {
+    color: #666666;
+}
+
+.des-col-title a {
+    color: #666;
+}
+
+.clear {
+    clear:both;
+}
+
+.contact-section {
+    height: auto;
+	padding-top: 100px;
+}
+
+.title {
+	padding-bottom: 60px;
+}
+
+.container {
+    width: 90%;
+}
+
+
+@media (min-aspect-ratio: 16/9){
+
+    #weather_video {
+        width: 100vw;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+
+    #weather_video {
+        height: 100vh;
+        width: auto;
+    }
+}
+
+hr {
+    padding-bottom: 40px;
+}
+
+
+
+/*-----------------------
+         Contact
+------------------------*/
+
+.title {
+	text-align: center;
+}
+
+#contact {
+	height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+        @media screen and (max-width: 1095px) and (min-width: 1016px) {
+            #contact {
+                height: 100vh;
+            }
+        }
+
+        @media screen and (max-width: 970px) {
+            #contact {
+                height: 100vh;
+            }
+        }
+
+#weather-message {
+    left: 0;
+	max-width: 500px;
+	min-height: 200px;
+	color: #000;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#form {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+
+footer {
+    margin-top: -30px;
+    clear: both;
+    height: auto;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+
+#copy-name {
+	padding-bottom: 1rem;
+}
+
+@media (max-width: 768px){
+
+#weather-message {
+    width:100%;
+}
+
+.form-horizontal {
+    padding-top: 40px;
+}
+
+
